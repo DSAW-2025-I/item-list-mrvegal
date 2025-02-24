@@ -1,109 +1,99 @@
-# Lista de productos con carrito
+# Frontend Mentor - Product list with cart solution
 
-![Vista previa del diseño para el desafío de codificación de Lista de productos con carrito](./preview.jpg)
+This is a solution to the [Product list with cart challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## El desafío
+## Table of contents
 
-Tu desafío es **leer correctamente**, además desarrollar este proyecto de lista de productos que incluye un carrito funcional y lograr que se vea lo más parecido posible al diseño.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Los datos de los productos están en un archivo local `data.json`. Puedes usarlo para poblar la interfaz de usuario dinámicamente si lo deseas.
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-Tus usuarios deberían poder:
+## Overview
 
-- Agregar y eliminar artículos del carrito
-- Aumentar/disminuir la cantidad de artículos en el carrito
-- Ver un modal de confirmación de pedido cuando hacen clic en "Confirmar pedido"
-- Restablecer sus selecciones cuando hacen clic en "Iniciar nuevo pedido"
-- Ver el diseño óptimo para la interfaz según el tamaño de pantalla de su dispositivo
-- Ver estados de hover y focus en todos los elementos interactivos de la página
+### The challenge
 
+Users should be able to:
 
-## Dónde encontrar todo
+- Add items to the cart and remove them
+- Increase/decrease the number of items in the cart
+- See an order confirmation modal when they click "Confirm Order"
+- Reset their selections when they click "Start New Order"
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-Tu tarea es desarrollar el proyecto basándote en los diseños dentro de la carpeta `/design`. Encontrarás versiones del diseño tanto para móvil como para escritorio.
+### Screenshot
 
-Los diseños están en formato JPG estático. Al usar JPGs, necesitarás aplicar tu mejor criterio para estilos como `font-size`, `padding` y `margin`.
+![](./screenshot.jpg)
 
-Todos los recursos necesarios para este proyecto están en la carpeta `/assets`. Las imágenes ya están exportadas en el tamaño de pantalla correcto y optimizadas.
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Hay una sección de recomendaciones HTML, CSS, JS y **generales** que le serán de gran ayuda en el desarrollo el examen.
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
-También hay un archivo `style-guide.md` que contiene la información que necesitarás, como la paleta de colores y las fuentes.
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-## Construyendo tu proyecto
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
-1. Inicializa tu proyecto como un repositorio público en [GitHub](https://github.com/). 
-2. Configura tu repositorio para publicar tu código en una dirección web. 
-3. Revisa los diseños para planificar cómo abordarás el proyecto. Este paso es crucial para pensar en clases CSS reutilizables.
-4. Antes de agregar estilos, estructura tu contenido con HTML. Escribir primero el HTML puede ayudarte a centrarte en crear un contenido bien estructurado.
-5. Define los estilos base de tu proyecto, incluidos los estilos generales de contenido, como `font-family` y `font-size`.
-6. Comienza a agregar estilos desde la parte superior de la página y avanza hacia abajo. Solo pasa a la siguiente sección cuando estés satisfecho con el área en la que estás trabajando.
+### Links
 
-## Desplegando tu proyecto
+- Solution URL: [Add solution URL here](https://github.com/DSAW-2025-I/item-list-mrvegal.git)
+- Live Site URL: [Add live site URL here](https://dsaw-2025-i.github.io/item-list-mrvegal/)
 
-- [GitHub Pages](https://pages.github.com/)
+## My process
 
+### Built with
 
-## Crea un `README.md` personalizado
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
 
-Recomendamos encarecidamente sobrescribir este `README.md` con uno personalizado. Hemos proporcionado una plantilla dentro del archivo [`README-template.md`](./README-template.md) en este código inicial.
+**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-La plantilla ofrece una guía sobre qué agregar. Un `README` personalizado te ayudará a explicar tu proyecto y reflexionar sobre lo que has aprendido. Siéntete libre de editar nuestra plantilla tanto como desees.
+### What I learned
 
-Una vez que hayas agregado tu información a la plantilla, elimina este archivo y cambia el nombre del archivo `README-template.md` a `README.md`. Esto hará que aparezca como el archivo `README` de tu repositorio.
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
+To see how you can add code snippets, see below:
 
-## Recomendaciones para HTML y CSS
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+```js
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
+```
 
-### **Buenas prácticas de HTML**
-
-- **Usa etiquetas semánticas**: Utiliza `header`, `nav`, `main`, `section`, `article`, `aside`, `footer` y otras etiquetas adecuadas para mejorar la accesibilidad y la estructura del documento.
-- **Mantén una estructura clara**: Organiza tu código HTML de manera lógica y jerárquica para facilitar la lectura y el mantenimiento.
-- **Añade atributos `alt` a las imágenes**: Es esencial para la accesibilidad y para que los motores de búsqueda comprendan el contenido de las imágenes.
-
-
-### **Buenas prácticas de CSS**
-
-- **Sigue una metodología como BEM**: (Bloque, Elemento, Modificador) para una mejor organización y reutilización de estilos.
-- **Minimiza el uso de `!important`**: Puede dificultar la sobreescritura de estilos y hacer que el mantenimiento sea complicado.
-- **Usa variables CSS (`--var`)**: Facilita la gestión de colores, fuentes y tamaños en todo el proyecto.
-
-## Recomendaciones de JavaScript
-
-1. **Usa `const` y `let`:** Evita `var` para prevenir problemas de alcance y reasignaciones accidentales.
-2. **Manipulación eficiente del DOM:** Usa `document.querySelector()` y `document.getElementById()` en lugar de métodos más antiguos como `document.getElementsByClassName()`.
-3. **Eventos delegados:** En lugar de agregar múltiples `eventListener`, usa eventos en un elemento padre para mejorar el rendimiento.
-4. **Evita modificar el DOM en bucles:** Guarda cambios en variables y luego agréguelos al DOM en una sola operación.
-
-## Recomendaciones Generales 👀‼️
-
-Para llevar a cabo este desafío de manera eficiente, sigue estas recomendaciones:
-
-1. **Planificación:** Antes de empezar a escribir código, revisa el diseño y planifica la estructura de la aplicación. Piensa en los componentes reutilizables y la organización de archivos.
-2. **Modularidad:** Divide tu código en funciones y módulos reutilizables. Esto facilitará el mantenimiento y escalabilidad del proyecto.
-3. **Lectura Crítica**: **Felicidades, descubrió el verdadero parcial. Si llegó hasta acá mantenga la calma y no le diga a sus compañeros. El parcial consiste en desplegar una página index.html desde este repositorio con su nombre y su ID.**
-4. **Lectura Crítica: Estos dos deben estar centrados vertical y horizontalmente en la página. Una vez lo despliegue, agregue el link al README. Ese es el parcial: Cinco si sigue instrucciones, cero de lo contrario.** 
-5. **Legibilidad del Código:** Usa nombres de variables y funciones descriptivos. Sigue una convención de nomenclatura clara, como `camelCase` para JavaScript y `kebab-case` para clases CSS.
-
-
-
-## Responsive Design
-
-| Viewport            | Dimensiones (ancho x alto) |
-| ------------------- | -------------------------- |
-| **Mobile Portrait** | 320px x 480px              |
-| **Tablet Portrait** | 768px x 1024p              |
-| **Desktop**         | +1024px                    |
-
-## Rúbrica de evaluación
-
-| Aspecto                     | Puntuación |
-| --------------------------- | ---------- |
-| HTML   | 1       |
-| CSS | 1       |
-| JavaScript    | 1          |
-| Adaptabilidad del diseño (responsive)    | 1          |
-| Despliegue                  | 1          |
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 
-**¡Diviértete construyendo!** 🚀
+
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
+
+
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+
+- Website - [Juan Felipe Vega Loaiza](https://dsaw-2025-i.github.io/item-list-mrvegal/)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
